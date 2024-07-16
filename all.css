@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    margin: 0;
+    height:100%;
+}
+
+h1,span{
+    color: rgb(70, 85, 91);
+    font-style: italic;
+}
+
+.btn {
+    width: 100px;
+    color: rgb(49, 69, 77);
+    border-bottom: 1px white solid;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.642);
+    border: none;
+    padding: 10px 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.text-style{
+    color: white;
+    text-shadow: rgb(37, 37, 37) 1px 0 8px;
+}
+
+
+.bg-sunny{
+    background-image: url(./image/sunny.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px; 
+}
+
+.bg-sunny-cloudy {
+    background-image: url(./image/sunny-cloudy.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+   
+}
+
+.bg-cloudy {
+    background-image: url(./image/cloudy.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.bg-overcast {
+    background-image: url(./image/overcast.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.bg-rainy {
+    background-image: url(./image/thundershower.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.bg-thundershower {
+    background-image: url(./image/thundershower.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.bg-default {
+    background-color: rgb(54, 54, 54);
+}
